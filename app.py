@@ -14,7 +14,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import random
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_md")
+nlp = spacy.load("en_core_web_sm")
 
 # Updated color scheme for darker, aesthetic muted lilac and charcoal black
 COLORS = {
